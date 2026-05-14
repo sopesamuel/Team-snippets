@@ -1,0 +1,21 @@
+
+{{define "title"}} Your Account {{end}}
+{{define "main"}}
+{{with .User}}
+<table> 
+    <tr>
+        <th>Name</th> 
+        <th>Email</th> 
+        <th>created</th>
+        <th>Password</th>
+    </tr>
+    
+    <tr>
+        <td>{{.Name}}</td>
+        <td>{{.Email}}</td>
+        <td>{{humanDate .Created}}</td>
+        <td><a href='/account/password/update'>Change password</a></td>
+    </tr>
+</table>
+{{end}} 
+{{end}}
