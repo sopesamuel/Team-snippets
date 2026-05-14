@@ -2,6 +2,9 @@
 
 A code snippet sharing app for dev teams. Create, view, and share snippets with your teammates.
 
+
+https://github.com/user-attachments/assets/d8cac36e-b4e2-437d-b6cd-3833fbc8ab1a
+
 ---
 
 ## Stack
